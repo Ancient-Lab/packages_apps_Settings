@@ -68,6 +68,8 @@ public class BatteryMeterView extends CardView {
     private int status;
 	private String extra_status = "";
 
+    private int mLevel;
+
     public BatteryMeterView(Context context) {
         this(context, null, 0);
         init(context);
