@@ -40,6 +40,9 @@
     <string name="ancient_build_type_default">PREHISTORIC</string>
     <string name="keywords_ancient_build_type">ancient build type</string>
 
+    <!-- Ancient maintainer -->
+    <string name="maintainer">Maintainer</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
