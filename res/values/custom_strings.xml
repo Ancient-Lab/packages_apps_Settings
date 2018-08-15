@@ -31,4 +31,8 @@
     <string name="ancient_version_default">Unknown</string>
     <string name="keywords_ancient_version">ancient version</string>
 
+    <!-- Ancient Features -->
+    <string name="ancient_settings_title">Ancient Features</string>
+    <string name="ancient_settings_dashboard_summary">Ancient dedicated</string>
+
 </resources>
