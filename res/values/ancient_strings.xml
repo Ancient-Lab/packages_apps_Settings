@@ -53,6 +53,9 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Build Date -->
+    <string name="build_date">Build date</string>
+
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
 
