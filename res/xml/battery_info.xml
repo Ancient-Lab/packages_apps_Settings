@@ -18,7 +18,13 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/battery_info_title">
+    android:title="@string/battery_info_title"
+    settings:initialExpandedChildrenCount="7" >
+
+    <Preference
+        android:key="capacity"
+        android:title="@string/capacity"
+        android:selectable="false"/>
 
     <Preference
         android:key="battery_status"
@@ -36,13 +42,55 @@
         android:selectable="false"/>
 
     <Preference
+        android:key="battery_charge_type"
+        android:title="@string/battery_charge_type"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="charge_full"
+        android:title="@string/charge_original"
+        android:selectable="false"/>
+
+    <Preference
         android:key="charge_full_design"
         android:title="@string/charge_full_design"
         android:selectable="false"/>
 
     <Preference
+        android:key="current"
+        android:title="@string/current"
+        android:selectable="false"
+        settings:allowDividerAbove="true"/>
+
+    <Preference
+        android:key="current_max"
+        android:title="@string/current_max"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="voltage"
+        android:title="@string/battery_voltage"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="voltage_max"
+        android:title="@string/voltage_max"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="qcom_battery_version"
+        android:title="@string/qcom_battery_version"
+        android:selectable="false"
+        settings:allowDividerAbove="true"/>
+
+    <Preference
         android:key="charge_cycle"
         android:title="@string/charge_cycle"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="sys_temp_level"
+        android:title="@string/sys_temp_level"
         android:selectable="false"/>
 
 </PreferenceScreen>
