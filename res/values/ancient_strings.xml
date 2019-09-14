@@ -162,4 +162,8 @@
 
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+
+    <!-- Battery Temp -->
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
