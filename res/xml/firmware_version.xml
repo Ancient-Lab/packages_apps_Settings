@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Ancient logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="ancient_logo"
+        android:layout="@layout/ancient_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
