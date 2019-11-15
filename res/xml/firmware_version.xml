@@ -28,6 +28,14 @@
         android:layout="@layout/ancient_logo"
         android:selectable="false"/>
 
+    <!-- Ancient version -->
+    <Preference
+        android:key="ancient_version"
+        android:title="@string/ancient_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AncientVersionPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
