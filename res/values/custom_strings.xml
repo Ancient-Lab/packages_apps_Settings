@@ -35,4 +35,9 @@
     <string name="ancient_settings_title">Ancient Features</string>
     <string name="ancient_settings_dashboard_summary">Ancient dedicated</string>
 
+    <!-- Ancient Build Type -->
+    <string name="ancient_build_type">Ancient Build</string>
+    <string name="ancient_build_type_default">PREHISTORIC</string>
+    <string name="keywords_ancient_build_type">ancient build type</string>
+
 </resources>

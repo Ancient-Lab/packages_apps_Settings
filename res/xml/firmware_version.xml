@@ -36,6 +36,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AncientVersionPreferenceController"/>
 
+    <!-- Ancient Build Type -->
+    <Preference
+        android:key="ancient_build_type"
+        android:title="@string/ancient_build_type"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AncientBuildTypePreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
