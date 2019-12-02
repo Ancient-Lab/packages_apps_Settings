@@ -40,6 +40,9 @@
     <string name="ancient_build_type_default">PREHISTORIC</string>
     <string name="keywords_ancient_build_type">ancient build type</string>
 
+    <!-- Device Name -->
+    <string name="about_device_name">Device</string>
+
     <!-- Ancient maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="maintainer_name">Reza And Ancient Family</string>
