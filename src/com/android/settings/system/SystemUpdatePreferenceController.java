@@ -34,8 +34,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
-    private static final String OTA_BUILD_TYPE_PROP = "org.pixelexperience.build_type";
-    private static final String OTA_APP_PACKAGE = "org.pixelexperience.ota";
+    private static final String OTA_BUILD_TYPE_PROP = "ro.ancient.build_type";
+    private static final String OTA_APP_PACKAGE = "com.ancient.ota";
 
     private final UserManager mUm;
 
@@ -46,8 +46,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"unofficial");
-        if (!mUm.isAdminUser() || !buildtype.equalsIgnoreCase("official")){
+        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"prehistoric");
+        if (!mUm.isAdminUser() || !buildtype.equalsIgnoreCase("primeval")){
             return UNSUPPORTED_ON_DEVICE;
         }
         try {
