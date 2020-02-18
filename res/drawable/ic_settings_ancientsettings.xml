@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-		android:width="48dp"
-		android:height="48dp"
-		android:viewportWidth="48"
-		android:viewportHeight="48">
-	<path
-		android:fillColor="#FF6D4F00"
-		android:strokeColor="#00000000"
-		android:strokeWidth="0.89142877"
-		android:strokeLineJoin="miter"
-		android:fillType="nonZero"
-		android:strokeLineCap="square"
-		android:pathData="M24.00,46.29a22.29,22.29,-0.00,1,1,0.00001,0z"/>
-	<path
-		android:fillColor="#FFCB9200"
-		android:strokeColor="#00000000"
-		android:strokeWidth="1.27347"
-		android:strokeLineJoin="miter"
-		android:fillType="nonZero"
-		android:strokeLineCap="square"
-		android:pathData="M24.00,41.14a17.14,17.14,-0.00,1,1,0.00001,0z"/>
-	<path
-		android:fillColor="#FF6D4F00"
-		android:strokeColor="#00000000"
-		android:strokeWidth="1.27347"
-		android:strokeLineJoin="miter"
-		android:fillType="nonZero"
-		android:strokeLineCap="square"
-		android:pathData="M3.43,17.14C12.27,16.30,21.10,15.47,27.43,20.57C33.75,25.68,37.56,36.72,34.29,41.14C31.01,45.56,20.65,43.35,10.29,41.14"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M77.1,48.6c0,5.3-4.3,9.6-9.6,9.6c-5.3,0-9.6,4.3-9.6,9.6c0,5.3-4.3,9.6-9.6,9.6s-9.6-4.3-9.6-9.6 c0-5.3-4.3-9.6-9.6-9.6c-5.3,0-9.6-4.3-9.6-9.6c0-5.3,4.3-9.6,9.6-9.6c5.3,0,9.6-4.3,9.6-9.6c0-5.3,4.3-9.6,9.6-9.6 s9.6,4.3,9.6,9.6c0,5.3-4.3,9.6-9.6,9.6s-9.6,4.3-9.6,9.6c0,5.3,4.3,9.6,9.6,9.6s9.6-4.3,9.6-9.6c0-5.3,4.3-9.6,9.6-9.6 C72.8,39.1,77.1,43.4,77.1,48.6z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M80.4,70.5c0,5.3-4.3,9.6-9.6,9.6c-5.3,0-9.6-4.3-9.6-9.6c0-5.3,4.3-9.6,9.6-9.6 C76.1,60.9,80.4,65.2,80.4,70.5z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M50,97.3C23.9,97.3,2.7,76.1,2.7,50C2.7,23.9,23.9,2.7,50,2.7c26.1,0,47.3,21.2,47.3,47.3 C97.3,76.1,76.1,97.3,50,97.3z M50,7.6C26.6,7.6,7.6,26.6,7.6,50c0,23.4,19,42.4,42.4,42.4c23.4,0,42.4-19,42.4-42.4 C92.4,26.6,73.4,7.6,50,7.6z" />
 </vector>
