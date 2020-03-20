@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2018 The Android Open Source Project
+     Copyright (C) 2020 Ancient OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,5 +30,7 @@
     <color name="notification_importance_button_selected">#AECBFA</color> <!-- material blue 200 -->
     <color name="notification_importance_button_unselected">#5F6368</color>
     <color name="face_intro_outline">?android:attr/colorAccent</color>
+    <!-- Ancient background color -->
+    <color name="ancient_custom_bg">#FF000000</color>
 </resources>
 

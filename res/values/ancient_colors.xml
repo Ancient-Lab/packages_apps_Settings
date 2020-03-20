@@ -19,5 +19,7 @@
 
     <!-- AncientSettings Color -->
     <color name="homepage_ancient_background">#D1BA13</color>
+    <!-- Ancient background color -->
+    <color name="ancient_custom_bg">#FFFFFFFF</color>
 
 </resources>
