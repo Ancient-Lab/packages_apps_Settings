@@ -117,6 +117,10 @@
         android:fragment="com.android.settings.display.ScreenZoomSettings"
         settings:searchable="false"/>
 
+    <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/developer_smallest_width" />
+
     <com.ancient.settings.preferences.SystemSettingListPreference
         android:key="display_cutout_hidden"
         android:title="@string/display_cutout_mode_title"
