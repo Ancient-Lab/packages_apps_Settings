@@ -180,4 +180,5 @@ public class Settings extends SettingsActivity {
 
     // AncientOS Additions.
     public static class AncientSettingsActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity {}
 }
