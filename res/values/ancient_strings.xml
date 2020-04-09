@@ -43,6 +43,10 @@
     <!-- Ancient maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="maintainer_name">Reza And Ancient Family</string>
+     
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
