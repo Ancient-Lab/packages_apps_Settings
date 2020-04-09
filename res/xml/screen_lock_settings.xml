@@ -34,6 +34,13 @@
         android:summary="@string/summary_placeholder"
         android:entries="@array/lock_after_timeout_entries"
         android:entryValues="@array/lock_after_timeout_values" />
+  
+    <!-- Ancient additions, available in pin/pattern/password/slide -->
+    <SwitchPreference
+        android:key="lockscreen_scramble_pin_layout"
+        android:title="@string/unlock_scramble_pin_layout_title"
+        android:summary="@string/unlock_scramble_pin_layout_summary" />
+
 
     <!-- available in pin/pattern/password -->
     <SwitchPreference
