@@ -59,7 +59,7 @@
 
     <!-- Ancient maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Reza And Ancient Family</string>
+    <string name="maintainer_name">Ancient Family</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
