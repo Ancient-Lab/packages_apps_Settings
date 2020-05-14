@@ -1,5 +1,7 @@
 <!--
     Copyright (C) 2018 The Android Open Source Project
+    Designed by Vern Kuato
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -11,22 +13,14 @@
     limitations under the License.
 -->
 <!-- The main content view -->
-<LinearLayout
-    android:id="@+id/content_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    android:orientation="vertical">
-    <Toolbar
-        android:id="@+id/action_bar"
-        style="?android:attr/actionBarStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="?android:attr/actionBarTheme"
-        android:navigationContentDescription="@*android:string/action_bar_up_description" />
-    <FrameLayout
-        android:id="@+id/content_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+<LinearLayout android:orientation="vertical" android:id="@+id/content_parent" android:background="@drawable/ancient" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Toolbar android:theme="?android:actionBarTheme" android:id="@+id/action_bar" android:background="@drawable/kunil_racing"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:navigationContentDescription="@*android:string/action_bar_up_description" style="?android:actionBarStyle" />
+
+        <FrameLayout android:id="@+id/content_frame" android:background="@drawable/ancient_background_primary"
+android:layout_marginLeft="8dp"
+android:layout_marginRight="8dp" 
+android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
 </LinearLayout>
