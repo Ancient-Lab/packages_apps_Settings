@@ -20,7 +20,8 @@ android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:navigat
 
         <FrameLayout android:id="@+id/content_frame" android:background="@drawable/ancient_background_primary"
 android:layout_marginLeft="8dp"
-android:layout_marginRight="8dp" 
+android:layout_marginRight="8dp"
+android:layout_marginTop="5dp"
 android:layout_width="fill_parent" android:layout_height="wrap_content" />
 
 </LinearLayout>
