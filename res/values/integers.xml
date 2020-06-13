@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2018 The Android Open Source Project
+  Copyright 2020 Ancient OS
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -20,4 +21,8 @@
     <integer name="job_anomaly_config_update">101</integer>
     <integer name="job_anomaly_detection">102</integer>
     <integer name="device_index_update">103</integer>
+
+    <!-- Add custom gravity settings -->
+    <integer name="anci_grav">5</integer>
+    <integer name="anci_grav2">5</integer>
 </resources>
