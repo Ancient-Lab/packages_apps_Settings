@@ -41,7 +41,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
 
     <!-- About phone screen, Ancient version -->
-    <string name="ancient_version">Ancient-OS version</string>
+    <string name="ancient_version">バージョン `AncientOS</string>
     <string name="ancient_version_default">Unknown</string>
     <string name="keywords_ancient_version">ancient version</string>
 
@@ -50,25 +50,25 @@
     <string name="ancient_settings_dashboard_summary">Ancient dedicated</string>
 
     <!-- Ancient Build Type -->
-    <string name="ancient_build_type">Ancient Build</string>
+    <string name="ancient_build_type">古代のビルド `Kodai no birudo</string>
     <string name="ancient_build_type_default">PREHISTORIC</string>
     <string name="keywords_ancient_build_type">ancient build type</string>
 
     <!-- Device Name -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">端末 `Tanmatsu</string>
 
     <!-- Ancient maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Ancient Family</string>
+    <string name="maintainer">メンテナ `Mentena</string>
+    <string name="maintainer_name">weebs `ppl</string>
 
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">ステータス `SELinux</string>
+    <string name="selinux_status_disabled">無効 `Disable</string>
+    <string name="selinux_status_permissive">寛容 `Permissive</string>
+    <string name="selinux_status_enforcing">強制 `Enforcing</string>
 
     <!-- Build Date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">建設日 `Kensetsu-bi</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
