@@ -24,8 +24,8 @@
 
     <!-- Ancient logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="ancient_logo"
-        android:layout="@layout/ancient_logo"
+        android:key="onichan"
+        android:layout="@layout/onichan"
         android:selectable="false"/>
 
     <!-- Ancient version -->
@@ -43,6 +43,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AncientBuildTypePreferenceController"/>
+
+    <!-- Build date -->
+    <Preference
+        android:key="os_build_date"
+        android:title="@string/build_date"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
 
     <!-- Device name -->
     <Preference
@@ -105,14 +113,6 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
-
-    <!-- Build date -->
-    <Preference
-        android:key="os_build_date"
-        android:title="@string/build_date"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
 
     <!-- Build -->
     <Preference
