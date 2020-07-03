@@ -34,6 +34,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.preference_preference \
     androidx.recyclerview_recyclerview \
     com.google.android.material_material \
+    airbnb-lottie \
     setupcompat \
     setupdesign
 
@@ -45,6 +46,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     androidx-constraintlayout_constraintlayout-solver \
     androidx.lifecycle_lifecycle-runtime \
     androidx.lifecycle_lifecycle-extensions \
+    airbnb-lottie \
     guava \
     jsr305 \
     settings-contextual-card-protos-lite \
