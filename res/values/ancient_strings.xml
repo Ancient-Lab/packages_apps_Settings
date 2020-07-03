@@ -273,4 +273,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Bluetooth Audio Codec (preferred)</string>
+
 </resources>
