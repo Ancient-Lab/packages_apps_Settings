@@ -25,4 +25,14 @@
     <!-- Add custom gravity settings -->
     <integer name="anci_grav">5</integer>
     <integer name="anci_grav2">5</integer>
+
+    <!-- Add custom int settings -->
+    <integer name="match_parent">-2</integer>
+    <integer name="wrap_content">-2</integer>
+    <integer name="seach_text_visibility">2</integer>
+    <item type="integer" name="config_toolbar_width">42.0dip</item>
+    <item type="integer" name="config_toolbar_height">42.0dip</item>
+    <item type="integer" name="config_searchbar_height">40.0dip</item>
+    <item type="integer" name="config_searchbar_width">40.0dip</item>
+
 </resources>
