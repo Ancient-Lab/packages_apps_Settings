@@ -202,6 +202,10 @@ public class TopLevelSettings extends DashboardFragment implements
                         aIcon.setForegroundColorAicp(mAccentColor);
                         aIcon.setBackgroundColorAicp(mRandomColor);
                         break;
+                    case 8:
+                        aIcon.setForegroundColorAicp(mAccentColor);
+                        aIcon.setBackgroundColorAicp(R.color.settings_icon_oneplus);
+                        break;
                 }
             } else if (icon instanceof LayerDrawable) {
                 LayerDrawable lIcon = (LayerDrawable) icon;
@@ -238,6 +242,10 @@ public class TopLevelSettings extends DashboardFragment implements
                             fg.setTint(mAccentColor);
                             bg.setTint(mRandomColor);
                             break;
+                        case 8:
+                            fg.setTint(mAccentColor);
+                            bg.setTint(R.color.settings_icon_oneplus);
+                            break; 
                     }
                 }
             }
