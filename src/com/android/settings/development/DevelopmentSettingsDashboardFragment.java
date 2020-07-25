@@ -458,6 +458,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new BluetoothA2dpHwOffloadPreferenceController(context, fragment));
         controllers.add(new BluetoothAudioCodecPreferenceController(context, lifecycle,
                 bluetoothA2dpConfigStore));
+        controllers.add(new BluetoothAudioCodecPriorityPreferenceController(context));
         controllers.add(new BluetoothAudioSampleRatePreferenceController(context, lifecycle,
                 bluetoothA2dpConfigStore));
         controllers.add(new BluetoothAudioBitsPerSamplePreferenceController(context, lifecycle,
@@ -506,7 +507,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new DefaultLaunchPreferenceController(context, "feature_flags_dashboard"));
         controllers.add(
             new DefaultLaunchPreferenceController(context, "default_usb_configuration"));
-        controllers.add(new DefaultLaunchPreferenceController(context, "density"));
+        //controllers.add(new DefaultLaunchPreferenceController(context, "density"));
         controllers.add(new DefaultLaunchPreferenceController(context, "background_check"));
         controllers.add(new DefaultLaunchPreferenceController(context, "inactive_apps"));
         controllers.add(new AutofillLoggingLevelPreferenceController(context, lifecycle));

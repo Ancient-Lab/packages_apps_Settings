@@ -22,4 +22,6 @@
     <!-- Ancient background color -->
     <color name="ancient_custom_bg">#FFFFFFFF</color>
 
+    <color name="settings_icon_oneplus">@android:color/white</color>
+
 </resources>
