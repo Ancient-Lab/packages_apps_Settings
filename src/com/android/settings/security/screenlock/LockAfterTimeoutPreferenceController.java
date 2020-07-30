@@ -103,7 +103,7 @@ public class LockAfterTimeoutPreferenceController extends AbstractPreferenceCont
     private void setupLockAfterPreference(TimeoutListPreference preference) {
         // Compatible with pre-Froyo
         long currentTimeout = Settings.Secure.getLong(mContext.getContentResolver(),
-                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 5000);
+                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 500);
         preference.setValue(String.valueOf(currentTimeout));
         if (mDPM != null) {
             final RestrictedLockUtils.EnforcedAdmin admin =
@@ -127,7 +127,7 @@ public class LockAfterTimeoutPreferenceController extends AbstractPreferenceCont
         } else {
             // Update summary message with current value
             long currentTimeout = Settings.Secure.getLong(mContext.getContentResolver(),
-                    Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 5000);
+                    Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 500);
             final CharSequence[] entries = preference.getEntries();
             final CharSequence[] values = preference.getEntryValues();
             int best = 0;
