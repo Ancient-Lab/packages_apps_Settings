@@ -17,7 +17,7 @@
      limitations under the License.
 -->
  
-<LinearLayout android:gravity="@integer/anci_grav2" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" app:cardBackgroundColor="?android:colorPrimary" style="@style/SearchBarStyle"
+<LinearLayout android:gravity="@integer/anci_grav2" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" app:cardBackgroundColor="?android:colorPrimary" app:layout_scrollFlags="@integer/searchbar_custom_scroll" app:layout_scrollFlags="@integer/searchbar_custom_scroll" style="@style/SearchBarStyle"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:layout_gravity="@integer/anci_grav2" android:orientation="horizontal" android:layout_width="@integer/match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/serachbar_custom_marginright" android:layout_marginLeft="@dimen/serachbar_custom_marginleft" android:layout_centerHorizontal="true">
         <com.google.android.material.card.MaterialCardView android:id="@+id/search_bar" android:layout_width="@integer/wrap_content" android:layout_height="@integer/config_toolbar_height" style="@style/SearchBarStyle">

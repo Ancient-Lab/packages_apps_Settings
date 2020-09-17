@@ -34,5 +34,6 @@
     <item type="integer" name="config_toolbar_height">42.0dip</item>
     <item type="integer" name="config_searchbar_height">40.0dip</item>
     <item type="integer" name="config_searchbar_width">40.0dip</item>
+    <integer name="searchbar_custom_scroll">10</integer>
 
 </resources>
