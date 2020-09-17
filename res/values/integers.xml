@@ -35,5 +35,19 @@
     <item type="integer" name="config_searchbar_height">40.0dip</item>
     <item type="integer" name="config_searchbar_width">40.0dip</item>
     <integer name="searchbar_custom_scroll">10</integer>
+    <integer name="lottie_height">-2</integer>
+    <integer name="lottie_view">0</integer>
+    <item type="integer" name="space_spacer">0.0dip</item>
+    <integer name="ic_setting_custom">2</integer>
+    <item type="integer" name="spacer_text">40.0dip</item>
+    <integer name="spacer_text_visibility">0</integer>
+    <item type="integer" name="ic_setting_cheight">70.0dip</item>
+    <item type="integer" name="ic_setting_cwidth">70.0dip</item>
+    <integer name="settingtext_insearch">2</integer>
+    <integer name="ic_setting_csearchbar">2</integer>
+    <integer name="ic_setting_csearchbar_center">2</integer>
+    <integer name="avatar_visibility">0</integer>
+    <integer name="lottie_searchbar">2</integer>
+    <integer name="settingtext_insearch_center">2</integer>
 
 </resources>

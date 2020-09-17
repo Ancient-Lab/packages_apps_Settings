@@ -17,16 +17,161 @@
      limitations under the License.
 -->
  
-<LinearLayout android:gravity="@integer/anci_grav2" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" app:cardBackgroundColor="?android:colorPrimary" app:layout_scrollFlags="@integer/searchbar_custom_scroll" app:layout_scrollFlags="@integer/searchbar_custom_scroll" style="@style/SearchBarStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:layout_gravity="@integer/anci_grav2" android:orientation="horizontal" android:layout_width="@integer/match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/serachbar_custom_marginright" android:layout_marginLeft="@dimen/serachbar_custom_marginleft" android:layout_centerHorizontal="true">
-        <com.google.android.material.card.MaterialCardView android:id="@+id/search_bar" android:layout_width="@integer/wrap_content" android:layout_height="@integer/config_toolbar_height" style="@style/SearchBarStyle">
-            <Toolbar android:layout_gravity="@integer/anci_grav2" android:id="@+id/search_action_bar" android:layout_width="@integer/config_searchbar_height" android:layout_height="@integer/config_searchbar_width" android:navigationIcon="@drawable/ic_homepage_search" android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset">
-                <TextView android:textSize="24.0dip" android:layout_gravity="center" android:id="@+id/search_action_bar_title" android:visibility="@integer/seach_text_visibility" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_menu" style="@style/TextAppearance.SearchBar" />
-            </Toolbar>
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView android:layout_width="42.0dip" android:layout_height="42.0dip" style="@style/SearchBarStyle">
-            <ImageView android:layout_gravity="center" android:id="@+id/account_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/search_bar_account_avatar_content_description" />
-        </com.google.android.material.card.MaterialCardView>
+<FrameLayout 
+  android:gravity="@integer/anci_grav2" 
+  android:orientation="horizontal" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:layout_marginRight="5.0dip" 
+  app:cardBackgroundColor="?android:colorPrimary" 
+  app:layout_scrollFlags="@integer/searchbar_custom_scroll" 
+  style="@style/SearchBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+     
+  <com.airbnb.lottie.LottieAnimationView 
+      android:gravity="center_vertical" 
+	 android:layout_gravity="center_vertical" 
+	 android:visibility="@integer/lottie_searchbar" 
+	 android:clickable="false" 
+      android:layout_width="fill_parent" 
+	 android:layout_height="100.0dip" 
+	 android:layout_marginBottom="50.0dip" 
+	 android:tint="?android:colorAccent" 
+	 android:layoutDirection="rtl" 
+	 app:lottie_autoPlay="true" 
+	 app:lottie_loop="true" 
+	 app:lottie_rawRes="@raw/squareload" />
+     
+      <LinearLayout 
+	   android:gravity="@integer/anci_grav2" 
+	   android:orientation="horizontal" 
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content" 
+	   android:layout_marginRight="5.0dip" 
+	   app:cardBackgroundColor="?android:colorPrimary" 
+	   app:layout_scrollFlags="@integer/searchbar_custom_scroll" 
+	   style="@style/SearchBarStyle"
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+	   xmlns:app="http://schemas.android.com/apk/res-auto">
+           
+        <LinearLayout 
+		  android:orientation="horizontal" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" 
+		  android:layout_weight="1.0">
+             
+            <ImageView 
+		     android:visibility="@integer/ic_setting_csearchbar" 
+		     android:layout_width="45.0dip" 
+		     android:layout_height="fill_parent" 
+		     android:src="@drawable/ic_setting_custom" />
+             
+            <TextView 
+			  android:textAppearance="@style/homepage_spacer_title_style" 
+			  android:textSize="@integer/spacer_text" 
+			  android:gravity="center|left" 
+			  android:layout_gravity="start" 
+			  android:paddingLeft="4.0dip" 
+			  android:paddingRight="4.0dip" 
+			  android:paddingBottom="5.0dip" 
+			  android:visibility="@integer/settingtext_insearch" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:text="@string/settings_label" 
+			  android:layout_alignParentLeft="true" 
+			  android:fontFamily="@*android:string/config_headlineFontFamily" />
+             
+        </LinearLayout>
+           
+        <LinearLayout 
+		  android:layout_gravity="@integer/anci_grav2" 
+		  android:orientation="horizontal" 
+		  android:layout_width="@integer/match_parent" 
+		  android:layout_height="wrap_content" 
+		  android:layout_marginLeft="@dimen/serachbar_custom_marginleft" 
+		  android:layout_marginRight="@dimen/serachbar_custom_marginright" 
+		  android:layout_centerHorizontal="true">
+             
+            <com.google.android.material.card.MaterialCardView 
+			  android:id="@+id/search_bar" 
+			  android:layout_width="@integer/wrap_content" 
+			  android:layout_height="@integer/config_toolbar_height" 
+			  style="@style/SearchBarStyle">
+                 
+                <Toolbar 
+				  android:layout_gravity="@integer/anci_grav2" 
+				  android:id="@+id/search_action_bar" 
+				  android:layout_width="@integer/config_searchbar_height" 
+				  android:layout_height="@integer/config_searchbar_width" 
+				  android:navigationIcon="@drawable/ic_homepage_search" 
+				  android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset">
+                     
+                    <TextView 
+					  android:textSize="24.0dip" 
+					  android:layout_gravity="center" 
+					  android:id="@+id/search_action_bar_title" 
+					  android:visibility="@integer/seach_text_visibility" 
+					  android:layout_width="wrap_content" 
+					  android:layout_height="wrap_content" 
+					  android:text="@string/search_menu" 
+					  style="@style/TextAppearance.SearchBar" />
+                    
+                </Toolbar>
+                 
+            </com.google.android.material.card.MaterialCardView>
+             
+            <LinearLayout 
+			  android:gravity="center" 
+			  android:layout_gravity="center" 
+			  android:orientation="horizontal" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_weight="1.0" 
+			  android:layout_centerInParent="true">
+                 
+                <ImageView 
+				  android:gravity="center" 
+				  android:layout_gravity="center" 
+				  android:visibility="@integer/ic_setting_csearchbar_center" 
+				  android:layout_width="45.0dip" 
+				  android:layout_height="fill_parent" 
+				  android:src="@drawable/ic_setting_custom" />
+                 
+                <TextView 
+				  android:textAppearance="@style/homepage_spacer_title_style" 
+				  android:textSize="@integer/spacer_text" 
+				  android:gravity="center" 
+				  android:layout_gravity="center" 
+				  android:paddingLeft="4.0dip" 
+				  android:paddingRight="4.0dip" 
+				  android:paddingBottom="5.0dip" 
+				  android:visibility="@integer/settingtext_insearch_center" 
+				  android:layout_width="wrap_content" 
+				  android:layout_height="wrap_content" 
+				  android:text="@string/settings_label" 
+				  android:layout_centerInParent="true" 
+				  android:fontFamily="@*android:string/config_headlineFontFamily" />
+                 
+            </LinearLayout>
+             
+            <com.google.android.material.card.MaterialCardView 
+			  android:visibility="@integer/avatar_visibility" 
+			  android:layout_width="42.0dip" 
+			  android:layout_height="42.0dip" 
+			  style="@style/SearchBarStyle">
+                 
+                <ImageView 
+				  android:layout_gravity="center" 
+				  android:id="@+id/account_avatar" 
+				  android:layout_width="40.0dip" 
+				  android:layout_height="40.0dip" 
+				  android:contentDescription="@string/search_bar_account_avatar_content_description" />
+                 
+            </com.google.android.material.card.MaterialCardView>
+             
+        </LinearLayout>
+           
     </LinearLayout>
-</LinearLayout>
+     
+</FrameLayout>

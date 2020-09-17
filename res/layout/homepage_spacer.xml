@@ -16,17 +16,18 @@
      limitations under the License.
 -->
 
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/settings_homepage_spacer"
-    android:layout_width="match_parent"
-    android:elevation="6dp"
-    android:layout_height="@dimen/homepage_spacer_height"
-    android:outlineProvider="none"
-    app:cardBackgroundColor="#00000000"
-    app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+<com.google.android.material.card.MaterialCardView 
+  android:id="@+id/settings_homepage_spacer" 
+  android:layout_width="fill_parent" 
+  android:layout_height="@dimen/homepage_spacer_height" 
+  android:elevation="6.0dip" 
+  android:outlineProvider="none" 
+  app:cardBackgroundColor="#00000000" 
+  app:layout_scrollFlags="enterAlwaysCollapsed|scroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <include layout="@layout/ancient_craft" />
+    <include 
+       layout="@layout/ancient_lottie" />
 
 </com.google.android.material.card.MaterialCardView>

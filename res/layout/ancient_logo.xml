@@ -12,18 +12,32 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:selectable="false">
-
- <ImageView
-        android:layout_width="625dp"
-        android:layout_height="150dp"
-        android:src="@drawable/ancient_logo"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="10dp" />
-</LinearLayout>
+<RelativeLayout 
+  android:gravity="center" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:selectable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView 
+	  android:layout_gravity="center" 
+	  android:id="@+id/ancient_lottie" 
+	  android:visibility="@integer/lottie_view" 
+	  android:clickable="false" 
+	  android:layout_width="625.0dip" 
+	  android:layout_height="200.0dip" 
+	  android:layout_marginTop="30.0dip" 
+	  android:adjustViewBounds="true" 
+	  app:lottie_autoPlay="true" 
+	  app:lottie_loop="true" 
+	  app:lottie_rawRes="@raw/wave_bglogo" />
+    <ImageView 
+	  android:gravity="center" 
+	  android:layout_width="625.0dip" 
+	  android:layout_height="150.0dip" 
+	  android:layout_marginTop="15.0dip" 
+	  android:layout_marginBottom="10.0dip" 
+	  android:src="@drawable/ancient_logo" 
+	  android:scaleType="centerInside" 
+	  android:adjustViewBounds="true" />
+</RelativeLayout>
