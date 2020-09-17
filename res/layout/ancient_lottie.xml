@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  android:layout_gravity="@integer/anci_grav" 
+  android:layout_width="fill_parent" 
+  android:layout_height="@dimen/homepage_spacer_height" 
+  android:elevation="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+  <FrameLayout 
+	  android:layout_gravity="@integer/anci_grav" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="fill_parent">
+    
+    <LinearLayout 
+		  android:layout_gravity="@integer/anci_grav" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="fill_parent" 
+		  android:elevation="6.0dip">
+      
+      <com.airbnb.lottie.LottieAnimationView 
+			  android:gravity="center_vertical" 
+			  android:layout_gravity="center_vertical" 
+			  android:id="@+id/hspacer_lottie" 
+			  android:visibility="@integer/lottie_view" 
+			  android:clickable="false" 
+			  android:layout_width="400.0dip" 
+			  android:layout_height="400.0dip" 
+			  android:tint="?android:colorAccent" 
+			  app:lottie_autoPlay="true" 
+			  app:lottie_loop="true" 
+			  app:lottie_rawRes="@raw/wave" />
+      
+    </LinearLayout>
+    
+    <LinearLayout 
+		  android:layout_gravity="@integer/anci_grav" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="fill_parent" 
+		  android:elevation="6.0dip">
+      
+      <LinearLayout 
+			  android:gravity="center_vertical" 
+			  android:layout_gravity="center_vertical" 
+			  android:orientation="vertical" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginLeft="15.0dip" 
+			  android:layout_marginRight="15.0dip">
+        
+        <LinearLayout 
+				  android:gravity="center_vertical" 
+				  android:layout_gravity="@integer/anci_grav" 
+				  android:layout_width="wrap_content" 
+				  android:layout_height="wrap_content" 
+				  android:layout_marginLeft="1.0dip" 
+				  android:layout_marginRight="1.0dip">
+          
+          <ImageView 
+					  android:gravity="center_vertical" 
+					  android:layout_gravity="center_vertical" 
+					  android:visibility="@integer/ic_setting_custom" 
+					  android:layout_width="@integer/ic_setting_cwidth" 
+					  android:layout_height="@integer/ic_setting_cheight" 
+					  android:src="@drawable/ic_setting_custom" />
+          
+         </LinearLayout>
+        
+         <TextView 
+				  android:textAppearance="@style/homepage_spacer_title_style" 
+				  android:textSize="@integer/spacer_text" 
+				  android:gravity="center_vertical" 
+				  android:layout_gravity="center_vertical" 
+				  android:paddingLeft="4.0dip" 
+				  android:paddingRight="4.0dip" 
+				  android:visibility="@integer/spacer_text_visibility" 
+				  android:layout_width="wrap_content" 
+				  android:layout_height="wrap_content" 
+				  android:text="@string/settings_label" 
+				  android:fontFamily="@*android:string/config_headlineFontFamily" />
+        
+          </LinearLayout>
+      
+        </LinearLayout>
+    
+    </FrameLayout>
+  
+</LinearLayout>

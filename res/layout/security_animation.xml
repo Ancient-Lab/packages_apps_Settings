@@ -15,7 +15,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="@integer/lottie_height"
     android:gravity="center"
     android:orientation="horizontal" >
 
@@ -24,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:layout_gravity="center"
+        android:visibility="@integer/lottie_view"
         android:clickable="false"
         app:lottie_rawRes="@raw/security"
         app:lottie_loop="true"
