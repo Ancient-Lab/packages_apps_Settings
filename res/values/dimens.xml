@@ -434,5 +434,6 @@
     <!-- Custom SearchBar -->
     <dimen name="serachbar_custom_marginright">0.0dip</dimen>
     <dimen name="serachbar_custom_marginleft">0.0dip</dimen>
+    <dimen name="bar_border">1.0dip</dimen>
 
 </resources>

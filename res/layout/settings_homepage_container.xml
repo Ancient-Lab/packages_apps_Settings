@@ -21,7 +21,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_homepage_container"
-    android:background="#00000000"
+    android:background="@drawable/ancient"
     android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -30,7 +30,7 @@
         android:id="@+id/anci_custom_bg" 
         android:layout_width="fill_parent" 
         android:layout_height="fill_parent" 
-        android:src="@drawable/ancient" 
+        android:src="#00000000" 
         android:scaleType="fitXY" 
         android:adjustViewBounds="true" />
 
